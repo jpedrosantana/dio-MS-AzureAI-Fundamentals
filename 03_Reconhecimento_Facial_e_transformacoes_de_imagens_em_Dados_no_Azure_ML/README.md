@@ -13,28 +13,26 @@ Todas as imagens foram extraídas do repositório publico a seguir: [Fotos profi
 2. Após criado, entrar no [Vision Studio](https://portal.vision.cognitive.azure.com/?azure-portal=true)
 
 3. Na página inicial, clique em View all resources e selecione o recurso criado como default.
-
-![8559c978-0d2e-4009-aff8-eb5edfc93dd6](file:///C:/Users/joao.pedro/OneDrive%20-%20Capitale%20Energia/Imagens/Typedown/8559c978-0d2e-4009-aff8-eb5edfc93dd6.png)
+   
+   ![](file:///C:/Users/joao.pedro/OneDrive%20-%20Capitale%20Energia/Documentos/Cursos/DIO/Microsoft_IA/dio-MS-AzureAI-Fundamentals/03_Reconhecimento_Facial_e_transformacoes_de_imagens_em_Dados_no_Azure_ML/inputs/default-resource.png "Default resource")
 
 4. Volte a página inicial do Vision Studio e vá até a aba **Optical character recognition** e em seguira **Extract text from images**.
 
-![d133673c-fa6b-48fc-a796-6fcc1f1da84b](file:///C:/Users/joao.pedro/OneDrive%20-%20Capitale%20Energia/Imagens/Typedown/d133673c-fa6b-48fc-a796-6fcc1f1da84b.png)
-
-5. Aqui é possível utilizar uma imagem padrão sugerida, ou anexar alguma imagem que você tenha armazenada.
+5. E então será possível utilizar uma imagem padrão sugerida, ou anexar alguma imagem que você tenha armazenada.
 
 ## Análises e Resultados
 
 A primeira imagem utilizada foi uma arte escrita "Take it easy", talvez pela forma e estilo que a arte foi feita, a IA não identificou a palavra IT.
 
-![78657e9f-b055-4f63-9726-4b4c1fd8c3b2](file:///C:/Users/joao.pedro/OneDrive%20-%20Capitale%20Energia/Imagens/Typedown/78657e9f-b055-4f63-9726-4b4c1fd8c3b2.png)
+![](file:///C:/Users/joao.pedro/OneDrive%20-%20Capitale%20Energia/Documentos/Cursos/DIO/Microsoft_IA/dio-MS-AzureAI-Fundamentals/03_Reconhecimento_Facial_e_transformacoes_de_imagens_em_Dados_no_Azure_ML/outputs/output1.png "output1")
 
 A segunda imagem foi para tentar simular boletos ou formulários. Ele identificou grande parte do conteúdo das imagens, porém onde está escrito TAXES, a ferramenta trouxe cada letra fora de ordem.
 
-![c9f97735-ec88-4158-bc7c-991d71a73a2e](file:///C:/Users/joao.pedro/OneDrive%20-%20Capitale%20Energia/Imagens/Typedown/c9f97735-ec88-4158-bc7c-991d71a73a2e.png)
+![](file:///C:/Users/joao.pedro/OneDrive%20-%20Capitale%20Energia/Documentos/Cursos/DIO/Microsoft_IA/dio-MS-AzureAI-Fundamentals/03_Reconhecimento_Facial_e_transformacoes_de_imagens_em_Dados_no_Azure_ML/outputs/output2.png "output2")
 
 A última imagem foi para tentar identificar se a ferramenta também reconhece caracteres chineses. No caso ele conseguiu reconhecer todos, porém no caracter 息 ele identificou o caracter na totalidade, porém trouxe o radical 自 como se fosse uma palavra a parte.
 
-![900a53c7-1c24-46ed-b29b-b9fdba2ad339](file:///C:/Users/joao.pedro/OneDrive%20-%20Capitale%20Energia/Imagens/Typedown/900a53c7-1c24-46ed-b29b-b9fdba2ad339.png)
+![](file:///C:/Users/joao.pedro/OneDrive%20-%20Capitale%20Energia/Documentos/Cursos/DIO/Microsoft_IA/dio-MS-AzureAI-Fundamentals/03_Reconhecimento_Facial_e_transformacoes_de_imagens_em_Dados_no_Azure_ML/outputs/output3.png "output3")
 
 Com poucas imagens foi possível analisar que a ferramenta é muito bem treinada e pode ser usada para diferentes propósitos, porém ainda assim é sempre necessário ter uma intervenção humana para avaliar se o resultado está totalmente coerente.
 
