@@ -26,10 +26,10 @@ Para a avaliação eu utilizei 4 reviews de restaurantes que encontrei no Google
 
 Para cada sentença na frase, a ferramenta analisa individualmente e no final trás uma avaliação geral de todas as análise e se ela é mais positiva, negativa ou neutra.
 
-
+![Output 1 - Positivo](/04_Analise_Sentimentos_com_LanguageStudio_no_AzureAI/outputs/output1.png?raw=True "Output 1 - Positivo")
 
 Em cada análise a ferramenta tenta buscar as palavras chave do texto e alguns adjetivos ou complementos que definam se as palavras alvo sofrem um impacto positivo ou negativo na sentença.
 
-
+![Output 4 - Negativo](/04_Analise_Sentimentos_com_LanguageStudio_no_AzureAI/outputs/output4.png?raw=True "Output 4 - Negativo")
 
 Esse tipo de recurso pode ser muito útil para fazer análise de avaliações em geral, como posts em redes sociais, avaliações de filmes, produtos, lugares e serviços, sem precisar que uma pessoa faça uma análise de todos os textos escritos.
