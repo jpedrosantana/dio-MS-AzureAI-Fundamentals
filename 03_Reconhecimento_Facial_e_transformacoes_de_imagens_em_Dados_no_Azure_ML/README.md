@@ -14,7 +14,7 @@ Todas as imagens foram extraídas do repositório publico a seguir: [Fotos profi
 
 3. Na página inicial, clique em View all resources e selecione o recurso criado como default.
    
-   ![](file:///C:/Users/joao.pedro/OneDrive%20-%20Capitale%20Energia/Documentos/Cursos/DIO/Microsoft_IA/dio-MS-AzureAI-Fundamentals/03_Reconhecimento_Facial_e_transformacoes_de_imagens_em_Dados_no_Azure_ML/inputs/default-resource.png "Default resource")
+   ![](/03_Reconhecimento_Facial_e_transformacoes_de_imagens_em_Dados_no_Azure_ML/inputs/default-resource.png?raw=True "Default resource")
 
 4. Volte a página inicial do Vision Studio e vá até a aba **Optical character recognition** e em seguira **Extract text from images**.
 
@@ -24,15 +24,15 @@ Todas as imagens foram extraídas do repositório publico a seguir: [Fotos profi
 
 A primeira imagem utilizada foi uma arte escrita "Take it easy", talvez pela forma e estilo que a arte foi feita, a IA não identificou a palavra IT.
 
-![](file:///C:/Users/joao.pedro/OneDrive%20-%20Capitale%20Energia/Documentos/Cursos/DIO/Microsoft_IA/dio-MS-AzureAI-Fundamentals/03_Reconhecimento_Facial_e_transformacoes_de_imagens_em_Dados_no_Azure_ML/outputs/output1.png "output1")
+![](/03_Reconhecimento_Facial_e_transformacoes_de_imagens_em_Dados_no_Azure_ML/outputs/output1.png?raw=True "output1")
 
 A segunda imagem foi para tentar simular boletos ou formulários. Ele identificou grande parte do conteúdo das imagens, porém onde está escrito TAXES, a ferramenta trouxe cada letra fora de ordem.
 
-![](file:///C:/Users/joao.pedro/OneDrive%20-%20Capitale%20Energia/Documentos/Cursos/DIO/Microsoft_IA/dio-MS-AzureAI-Fundamentals/03_Reconhecimento_Facial_e_transformacoes_de_imagens_em_Dados_no_Azure_ML/outputs/output2.png "output2")
+![](/03_Reconhecimento_Facial_e_transformacoes_de_imagens_em_Dados_no_Azure_ML/outputs/output2.png?raw=True "output2")
 
 A última imagem foi para tentar identificar se a ferramenta também reconhece caracteres chineses. No caso ele conseguiu reconhecer todos, porém no caracter 息 ele identificou o caracter na totalidade, porém trouxe o radical 自 como se fosse uma palavra a parte.
 
-![](file:///C:/Users/joao.pedro/OneDrive%20-%20Capitale%20Energia/Documentos/Cursos/DIO/Microsoft_IA/dio-MS-AzureAI-Fundamentals/03_Reconhecimento_Facial_e_transformacoes_de_imagens_em_Dados_no_Azure_ML/outputs/output3.png "output3")
+![](/03_Reconhecimento_Facial_e_transformacoes_de_imagens_em_Dados_no_Azure_ML/outputs/output3.png?raw=True "output3")
 
 Com poucas imagens foi possível analisar que a ferramenta é muito bem treinada e pode ser usada para diferentes propósitos, porém ainda assim é sempre necessário ter uma intervenção humana para avaliar se o resultado está totalmente coerente.
 
